@@ -6,6 +6,7 @@ import pandas as pd
 
 # General comments about the code:
 # Everything that has "browser.find_element_by..." can be set to what best fits the HTML, usually xpath.
+# Visit https://selenium-python.readthedocs.io/locating-elements.html for more information.
 # For all functions the arguments passed in must be strings. Example below 
 # user_login("UserID", "UserPW", "login", "John Smith", "ILoveCS123")
 # For the function "get_data" it is highly reccomended to find elements by xpath since it allows
@@ -44,7 +45,6 @@ def website_navigation(node1, node2, node3):
 data = []
 def get_data(location_of_elements, attribute_wanted): 
     datapoints = browser.find_element_by_xpath(location_of_elements)
-    data.append(datapoints)
     for my_datapoint in datapoints:
        print(my_datapoint.get_attribute(attribute_wanted))
        data.append(my_datapoint.get_attribute(attribute_wanted))
