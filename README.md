@@ -1,6 +1,6 @@
 ___Copybot___
 The purpose of this program is to retrieve all the elements with something of a website that have something in common and transfer the inner HTML over to a given excel spreadsheet. This is my first official open source project uploaded to github, and as a relatively new and young developer I decided to explain each part as thoroughly as possible
-with the intent to aim it at an audience of others like me who are novices to the scene in hopes to inspire and motivate them. I wasn't sure if something like this already existed, but either way I don't care, I just want to learn. Also, I would like to thank a former classmate and friend of mine Daniel Muñoz for his contribution to this project by writing up the code that copies the data over to excel. All in all, I hope this code can be of use to someone one day, so to anyone who reads this or uses my program, thank you!
+with the intent to aim it at an audience of others like me who are novices to the scene in hopes to inspire and motivate them. I wasn't sure if something like this already existed, but either way I don't care, I just want to learn. Also, I would like to thank a former classmate and friend of mine Daniel Muñoz for his contribution and dedication to this project by writing up the code that copies the data over to excel. All in all, I hope this code can be of use to someone one day, so to anyone who reads this or uses my program, thank you!
 
 ___Requirements___
 To successfully execute the full program you must have:
